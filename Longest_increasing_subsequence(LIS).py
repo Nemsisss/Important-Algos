@@ -7,6 +7,5 @@ def longest_increasing_subsequence(arr):
                 dp[i] = max(dp[i], dp[j]+1)
     return max(dp)
  
- 
 arr = [10, 22, 9, 33, 21, 50, 41, 60]
 print( longest_increasing_subsequence(arr))
